@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retainly — Study Smarter. Stress Less.</title>
+    <meta name="description" content="The offline-first study planner built for Pakistani Matric students — one app for planning, revision, and exam prep, no internet required." />
+    <link rel="canonical" href="https://retainly.app" />
+    <meta property="og:title" content="Retainly — Study Smarter. Stress Less." />
+    <meta property="og:description" content="The offline-first study planner built for Pakistani Matric students — one app for planning, revision, and exam prep, no internet required." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://retainly.app" />
+    <meta property="og:image" content="https://retainly.app/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Retainly — Study Smarter. Stress Less." />
+    <meta name="twitter:description" content="The offline-first study planner built for Pakistani Matric students." />
+    <meta name="twitter:image" content="https://retainly.app/og-image.png" />
+    <meta name="theme-color" content="#10B981" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0F172A" media="(prefers-color-scheme: dark)" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Retainly",
+        "applicationCategory": "EducationApplication",
+        "operatingSystem": "Android",
+        "description": "The offline-first study planner built for Pakistani Matric students — one app for planning, revision, and exam prep, no internet required.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "PKR"
+        }
+      }
+    </script>
+    <script>
+      (function() {
+        var stored = localStorage.getItem('retainly-theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = stored || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
