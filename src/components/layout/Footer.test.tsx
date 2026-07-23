@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { screen } from '@testing-library/react';
-import { renderWithRouter as render } from '../test-utils';
+import { renderWithRouter as render } from '@/test/test-utils';
 import { Footer } from '@/components/layout/Footer';
 import { BRAND } from '@/data/brand';
 

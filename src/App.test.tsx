@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { screen, within } from '@testing-library/react';
-import { renderWithRouter as render } from '../test-utils';
+import { renderWithRouter as render } from '@/test/test-utils';
 import App from '@/App';
 
 describe('App Integration', () => {
