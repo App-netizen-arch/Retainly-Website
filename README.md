@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo-192.png" alt="Retainly logo" width="360">
+</p>
+
 # Retainly — Marketing Website
 
 The marketing website for **Retainly**, an offline-first study planner built for Pakistani
